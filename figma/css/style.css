@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Global style */
+.container{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.text-white{
+    color: white;
+}
+.text-gray{
+    color: rgb(105, 103, 103);
+}
+.padding-top-bottom{
+    padding: 2% 0%;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+.bg-light{
+    background-color: white;
+}
+
+
+.bg-dark{
+    background-color: rgb(2, 2, 32);
+}
+.position-relative{
+    position: relative;
+}
+.width-50{
+    width: 50%;
+}
+.width-60{
+    width: 60%;
+}
+.width-40{
+    width: 40%;
+}
+.w-30{
+    width: 30%;
+}
+.w-20{
+    width: 20%;
+}
+/* custom style */
+
+/* dog section */
+
+.bg-image{
+    background-image: url(../images/a5fcbde5258262f42e8d47435151dd5e6c7fc8ba.png);
+    background-size: 120% 120%;
+    background-attachment: scroll;
+    
+}
+.get-started{
+     color: black;
+     background-color: white;
+     border: 1px solid white;
+     border-radius: 19px;
+     width: 9%;
+     padding: 1% 0%;
+     margin-left: 30%;
+     
+}
+nav ul {
+    width: 35%;
+}
+.hidden-item{
+    display: none;
+}
+
+.custom-p{
+    width: 40%;
+    padding: 8% 1%
+}
+.custom-p h1{
+    font-size: 40px;
+}
+.custom-p p{
+    font-size: 13px;
+}
+.custom-p button{
+    border: 1px solid white;
+    border-radius: 19px;
+    background: none;
+    color: white;
+    padding: 2% 2%;
+    ;
+    margin: 6% 0
+}
+/* Shop section */
+.flex-box {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+    padding: 2% 2%;
+    /* background-color: white; */
+    align-items: center;
+    border: 1px lightgray solid;
+    border-radius: 1px;
+
+}
+.border-none{
+    border: none;
+}
+.h3-input{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 1%;
+}
+
+
+.search-box{
+    position: relative;
+    border: 1px white solid;
+    background-color: rgb(246, 238, 238);
+    border-radius: 19px;
+    padding: 1% 1%;
+}
+.search-box input{
+    border: none;
+    background: none;
+    
+}
+.button-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.button-box button{
+    border: none;
+    padding: 1% 1%;
+    background: none;
+    font-size: 14x;
+}
+.button-box button:hover { 
+    background-color: rgb(3, 3, 74);
+    color: white;
+    border-radius: 5px;
+}
+.sq-img{
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+
+}
+.sq-img img{
+    width: 100%;
+}
+.view-more{
+    position: absolute;
+    bottom: 0%;
+    right: 2%;
+    padding-bottom: 1%;
+    
+}
+
+
+
+/* service section */
+.service-box{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 1% 0%;
+    position: relative;
+    
+}
+
+.service-img{
+     width: 48%;
+    aspect-ratio: 1 / 1;
+    
+}
+.service-img img{
+    width: 100%;
+    border-radius: 5px;
+       
+}
+.service-img h1{
+    left: 32%;
+    position: absolute;
+    top: 50%;
+}
+.card-b{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%; 
+    
+    
+}
+.service-img-b{
+  width: 100%; 
+      height: 690px;
+   
+}
+
+.service-img-b img{
+
+    width: 100%;
+    border-radius: 5px;
+    top: 50%;
+    left: 30%;
+         
+}
+.service-img-b h1{
+     position: absolute;
+    top: 50%;
+    left: 36%;
+
+}
+
+.overlay{
+background-color: #0000009a;
+height: 100%;
+width: 100%;
+overflow: hidden;
+color: white;
+font-weight: bold;
+text-align: center;
+position: absolute;
+align-items: center;
+}
+
+
+
+/* About Section */
+.custom-about{
+    width: 50%;
+    padding: 3% 2%;
+    position: relative;
+}
+.custom-about p{
+    padding-top: 1%;
+    font-size: 16px;
+}
+.custom-about img{
+        width: 86%;
+        margin-left: 12%;
+        border-radius: 3px;
+}
+.img-sub{
+    aspect-ratio: 1 / 1;
+    width: 27%;
+    border: 8px solid white;
+    position: absolute;
+    top: 77%;
+    right: 71%;
+    border-radius: 3px;
+
+}
+
+/* Our Team */
+.card-team{
+    width: 23%;
+    
+    
+}
+.card-team img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 2px;
+}
+.padding-top{
+    padding: 0% 2%;
+}
+
+/* blog section */
+
+.custom-blog{
+    width: 50%;
+    padding: 3% 2%;
+    height: 100%;
+}
+.custom-blog p, .custom-blog h3, .custom-blog h4{
+    padding-top: 4%;
+}
+.custom-blog button{
+    margin: 4% 2%;
+    position: absolute; 
+    left: 1%;
+    top: 80%;
+
+}
+.custom-blog p{
+    color: gray;
+}
+.custom-blog img{
+    width: 100%;
+    position: relative;
+}
+.play-icon{
+    position: absolute;
+    right: 22.5%;
+    color: white;
+    font-size: 70px;
+}
+/* Get in touch section */
+.custom-touch{
+    width: 45%;
+    padding: 3% 2%;
+    border-radius: 7px;
+    background-color: white;
+
+}
+
+.form label{
+    padding: 2% 2%;
+}
+.left-form, .right-form{
+    width: 50%;
+    
+  
+}
+label{
+margin-top: 3%; 
+
+
+}
+input[type=text]{
+  padding: 2% 3%;
+  margin-top: 3%; 
+  width: 80%; 
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  color: gray;
+
+}
+
+input[name=email]{
+    width: 100%;
+    padding: 2% 0;
+    margin-top: 3%;
+     border-radius: 5px;
+     border: 1px solid lightgray;
+     color: gray;
+}
+textarea{
+   width: 100%;
+   margin-top: 3%;
+   padding: 9% 0;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+input[type=checkbox]{
+  margin-top: 3%; 
+  display: inline-block; 
+  color: gray;
+}
+form button{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    background-color:rgb(2, 2, 32); 
+    color: white;
+    border-radius: 5px;
+    padding: 3% 0;
+}
+.box-info{
+    width:40%;
+    color: white;
+
+}
+
+
+/* join our news */
+.custom-join{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 7%;
+    padding-top: 5%;
+}
+
+.custom-join input{
+    width: 63%;
+    background-color: lightgray;
+    border: none;
+    border-radius: 9px;
+    padding: 4% 3%;
+}
+.custom-join button{
+    width: 36%;
+    background-color: white;
+    border: none;
+    border-radius: 9px;
+    padding: 4% 3%;
+}
+.custom-join ul{
+     
+        margin: 0;
+        padding: 0;
+
+}
+
+
+/* media */
+.hidden-screen{
+    display:none;
+}
+
+
+
+
+

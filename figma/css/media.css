@@ -1,0 +1,143 @@
+@media (max-width : 430px){
+    .hidden-media{
+       display: none;
+    }
+    .get-started{
+        display: none;
+    }
+    .search-hidden{
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        margin-left: 72%;
+        
+    }
+    .custom-p{
+        width: 100%;
+    }
+    .bg-image{
+        
+        background-size: 190% 100%;
+        
+    }
+
+    .search-hidden{
+        display: flex;
+        position: absolute;
+        right: 2%;
+        top: 0%;
+    }
+    .postion-relative{
+        position: relative;
+    }
+    .flex-box{
+        border: none;
+    }
+    .sq-img{
+        width: 100%;
+        padding-bottom: 3%;
+        
+    }
+    .custom-about{
+        width: 100%;
+    }
+    .custom-blog{
+        width: 100%;
+        text-align: left;
+    }
+    .custom-blog button{
+        position: absolute;
+        top: 92%;
+        border: none;
+        background-color: rgb(4, 4, 88);
+        color: white;
+        border-radius: 3px;
+    }
+    .card-team{
+        width: 50%;
+        padding: 2% 2%;
+    }
+    .custom-touch{
+        width: 100%;
+    }
+    .box-touch{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .box-info{
+        width: 100%;
+    }
+    .width-60{
+        width: 100%;
+        display: block;
+    }
+    .width-40 input{
+        width: 100%;
+    }
+    .custom-join{
+        display: block;
+        
+    }
+    .width-40 {
+    width: 100%;
+     margin: 6% 0px;
+
+}
+.custom-join button {
+    width: 100%;
+    background-color: white;
+    border: none;
+    border-radius: 9px;
+    padding: 4% 3%;
+    margin: 6% 0px;
+}
+.width-60 {
+        width: 100%;
+        display: block;
+        margin: 0%;
+        padding: 7%;
+        width: 100%;
+        display: flex
+;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 7%;
+        padding-top: 5%;
+}
+.m-60{
+ width: 100%;
+    display: block;  
+        margin-left: 9%; 
+        text-align: left;
+}
+.w-30{
+    width: 100%;
+    display: block;
+}
+  .ul-media {
+        width: 50%;
+        font-size: 23px;
+        padding-bottom: 8%;
+        flex-wrap: wrap;
+        display: flex
+;
+  }
+    .custom-join ul {
+    margin: 0;
+    padding: 0;
+  }
+  .custom-join {
+    flex-direction: column;   
+    align-items: stretch;     
+    text-align: center;
+    gap: 10px;  
+    width: 100%;              
+  }
+  .w-20 {
+    margin-left: 21%;
+    width: 47%;
+}
+}
