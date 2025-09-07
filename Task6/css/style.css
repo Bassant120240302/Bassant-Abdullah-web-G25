@@ -1,0 +1,18 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Global style */
+.bg-light{
+    background-color: white;  
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.padding-top-bottom{
+    padding: 3% 0%;
+}
