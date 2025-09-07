@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    width: 60%;
+    border-collapse: separate;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+
+th, td{
+    padding: 2% 3%;
+       border-right: 1px solid white;
+    
+}
+th{
+    background-color: blue;
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(190, 184, 184);
+ }
+
+td{
+    border-bottom: 2px solid blue;
+}
+td:nth-child(1){
+    border-bottom: 0;
+}
+
+h3{
+    padding: 3%;
+    width: 70%;
+}
+h3::selection{
+    background-color: red;
+    color: white;
+}
+h3::first-letter{
+    color: rgb(242, 105, 128);
+    font-size: 30px;
+    font-weight: bold;
+}
+h3::first-line{
+    color: gray;
+}
+
